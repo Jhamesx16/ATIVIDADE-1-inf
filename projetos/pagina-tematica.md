@@ -1,89 +1,141 @@
-# Projeto 01 — Página temática somente com HTML
+<div align="center">
 
-## Situação-problema
+<h1>🌐 Projeto 01</h1>
+<h2>Página Temática Somente com HTML</h2>
+<p><strong>Escolha um tema, organize suas ideias e transforme o conteúdo em uma página web funcional!</strong></p>
+<p><code>HTML5</code> • <code>Trabalho em equipe</code> • <code>Acessibilidade</code> • <code>Testes</code></p>
 
-Uma pessoa deseja publicar uma página simples para apresentar um tema de interesse. A página precisa ser compreensível, organizada e funcionar sem CSS ou JavaScript.
+</div>
 
-Em dupla ou trio, você deverá planejar, construir, testar e apresentar essa página usando apenas os recursos de HTML estudados até agora.
+---
 
-## Objetivos
+## 🎯 O desafio
 
-- Aplicar a estrutura básica de um documento HTML.
-- Organizar o conteúdo com títulos, parágrafos, listas e links.
-- Usar `strong` e `em` de acordo com o significado do texto.
-- Inserir uma imagem com caminho relativo e texto alternativo.
-- Testar a página e corrigir problemas encontrados.
-- Explicar uma decisão tomada durante o desenvolvimento.
+Uma pessoa deseja publicar uma página simples para apresentar um tema de interesse. Essa página precisa ser **compreensível**, **organizada** e funcionar sem CSS ou JavaScript.
 
-## Organização da equipe
+Em dupla ou trio, sua equipe deverá planejar, construir, testar e apresentar a página usando apenas os recursos de HTML estudados até agora.
 
-- **Driver:** opera o computador e realiza as alterações.
-- **Navegador:** acompanha o enunciado e orienta o próximo passo.
-- **Revisor:** testa a página e registra o que precisa ser corrigido.
+## 🧭 Visão geral
 
-Nas duplas, o Navegador assume a revisão no momento do teste. Os papéis devem ser trocados durante o projeto.
+| Item | Orientação |
+| --- | --- |
+| 👥 Organização | Dupla ou trio |
+| 📄 Arquivo principal | `index.html` |
+| 🧱 Tecnologia | Somente HTML |
+| 📦 Repositório | `projeto-01-pagina-tematica` |
+| 📅 Prazo | **03/09** |
 
-## Temas disponíveis
+## 🚀 Objetivos
 
-Escolha um dos temas abaixo ou proponha outro ao professor.
+Ao concluir o projeto, você deverá ser capaz de:
 
-1. Guia para iniciantes em um jogo fictício.
-2. Catálogo de personagens ou criaturas inventadas.
-3. Guia de uma modalidade esportiva.
-4. Página de recomendações de livros, filmes ou animações.
-5. Guia de estudos de uma disciplina.
-6. Manual para começar um hobby.
-7. Receita ou pequeno livro de receitas.
-8. Guia de cuidados com animais.
-9. Pontos turísticos de uma cidade, sem divulgar endereços pessoais.
-10. Linha do tempo de uma tecnologia.
-11. Guia de peças e periféricos de computador.
-12. Página sobre segurança e convivência na internet.
-13. Missões para um herói ou explorador fictício.
-14. Museu virtual de objetos inventados.
-15. Guia de ações sustentáveis para a escola.
-16. Apresentação de um clube, equipe ou organização fictícia.
+- aplicar a estrutura básica de um documento HTML;
+- organizar conteúdos com títulos, parágrafos, listas e links;
+- usar `<strong>` e `<em>` de acordo com o significado do texto;
+- inserir uma imagem usando caminho relativo e texto alternativo;
+- testar a página e corrigir problemas encontrados;
+- explicar uma decisão tomada durante o desenvolvimento.
 
-Não publique nome completo, telefone, endereço, localização em tempo real, fotografia pessoal ou outras informações privadas.
+## 👥 Papéis da equipe
 
-## Requisitos obrigatórios
+| Papel | Responsabilidade |
+| --- | --- |
+| ⌨️ **Driver** | Opera o computador e realiza as alterações. |
+| 🧭 **Navegador** | Acompanha o enunciado e orienta o próximo passo. |
+| 🔎 **Revisor** | Testa a página e registra o que precisa ser corrigido. |
 
-A página deve conter:
+> [!NOTE]
+> Nas duplas, o Navegador assume a revisão no momento do teste. Os papéis devem ser trocados durante o projeto para que todos participem da construção.
 
-- arquivo principal chamado `index.html`;
-- `<!DOCTYPE html>`, `html`, `head` e `body`;
-- idioma `pt-BR`, codificação UTF-8 e título da aba;
-- somente um `h1`;
-- pelo menos um subtítulo;
-- pelo menos dois parágrafos;
-- uso adequado de `strong` ou `em`;
-- uma lista `ol` ou `ul` com pelo menos três itens;
-- pelo menos um link com texto que explique o destino;
-- uma imagem em uma pasta local;
-- atributo `alt` adequado à função da imagem;
-- teste no navegador e correção de pelo menos um problema;
-- registro da versão final por commit, captura comentada ou entrega da pasta.
+## 🎨 Escolha seu tema
 
-## Desafio adicional
+Escolha uma das sugestões ou apresente outra ideia ao professor.
 
-Quem concluir os requisitos pode acrescentar:
+| Categoria | Sugestões |
+| --- | --- |
+| 🎮 **Jogos e fantasia** | Guia para iniciantes em um jogo fictício; catálogo de criaturas inventadas; missões de um herói ou explorador; museu de objetos fictícios. |
+| 🎬 **Cultura e entretenimento** | Recomendações de livros, filmes ou animações; apresentação de personagens; guia de um universo fictício. |
+| ⚽ **Esportes e hobbies** | Guia de uma modalidade esportiva; manual para começar um hobby; apresentação de um clube ou equipe fictícia. |
+| 📚 **Educação e tecnologia** | Guia de estudos; linha do tempo de uma tecnologia; peças e periféricos de computador; segurança e convivência na internet. |
+| 🌱 **Cotidiano e comunidade** | Livro de receitas; cuidados com animais; pontos turísticos; ações sustentáveis para a escola. |
 
-- uma segunda lista de tipo diferente;
-- uma segunda imagem com função diferente;
-- links internos entre partes da página;
+> [!WARNING]
+> Preserve sua privacidade. Não publique nome completo, telefone, endereço, localização em tempo real, fotografia pessoal ou outras informações privadas.
 
-## Etapas
+## ✅ Requisitos obrigatórios
 
-1. Escolher o tema.
-2. Definir o título e três partes do conteúdo.
-3. Separar uma imagem permitida pelo professor.
-4. Montar a página.
-5. Abrir no navegador e testar.
-6. Pedir que outra equipe faça a revisão.
-7. Corrigir o problema encontrado (caso haja algum).
-8. Registrar e postar a versão final.
+### 🧱 Estrutura do documento
 
-## Entrega
+- [ ] O arquivo principal se chama `index.html`.
+- [ ] A página contém `<!DOCTYPE html>`, `<html>`, `<head>` e `<body>`.
+- [ ] O idioma está definido como `pt-BR`.
+- [ ] A codificação está configurada como UTF-8.
+- [ ] A aba do navegador possui um título relacionado ao tema.
 
-Postar em um repositório chamado de ```projeto-01-pagina-tematica``` até o dia 03/09.
+### ✍️ Conteúdo
 
+- [ ] Existe apenas um `<h1>`.
+- [ ] A página possui pelo menos um subtítulo.
+- [ ] Foram escritos pelo menos dois parágrafos.
+- [ ] `<strong>` ou `<em>` foi usado de acordo com o significado do texto.
+- [ ] Existe uma lista `<ol>` ou `<ul>` com pelo menos três itens.
+- [ ] Existe pelo menos um link com texto que explique seu destino.
+
+### 🖼️ Imagem e acessibilidade
+
+- [ ] A imagem está salva em uma pasta local do projeto.
+- [ ] O caminho da imagem funciona corretamente.
+- [ ] O atributo `alt` explica a função ou o conteúdo da imagem.
+
+### 🧪 Teste e entrega
+
+- [ ] A página foi aberta e testada no navegador.
+- [ ] A equipe realizou a revisão e corrigiu pelo menos um problema, caso encontrado.
+- [ ] A versão final foi registrada e publicada no repositório.
+
+## ⭐ Desafios adicionais
+
+Terminou os requisitos obrigatórios? Experimente acrescentar:
+
+- [ ] uma segunda lista de tipo diferente;
+- [ ] uma segunda imagem com função diferente;
+- [ ] links internos entre partes da página;
+- [ ] uma legenda usando `<figure>` e `<figcaption>`.
+
+## 🪜 Etapas do projeto
+
+1. **Escolher o tema** e confirmar a ideia com a equipe.
+2. **Definir o título** e pelo menos três partes do conteúdo.
+3. **Separar uma imagem** permitida pelo professor.
+4. **Montar a página** usando as tags estudadas.
+5. **Abrir no navegador** e testar o resultado.
+6. **Solicitar a revisão** de outra equipe.
+7. **Corrigir os problemas** encontrados, caso existam.
+8. **Registrar e publicar** a versão final.
+
+## 🔎 Revisão por outra equipe
+
+Antes da entrega, peça que outra equipe responda:
+
+- [ ] A página abre sem erros?
+- [ ] O tema pode ser compreendido rapidamente?
+- [ ] Os títulos estão organizados?
+- [ ] A lista e o link funcionam?
+- [ ] A imagem carrega corretamente?
+- [ ] O texto alternativo faz sentido no contexto?
+
+## 📦 Entrega
+
+> [!IMPORTANT]
+> Publique o projeto em um repositório chamado `projeto-01-pagina-tematica` até o dia **03/09**.
+
+Antes de finalizar, confira se o arquivo `index.html` está na pasta principal do repositório e se a página abre corretamente.
+
+---
+
+<div align="center">
+
+<h3>✨ Planeje. Construa. Teste. Melhore.</h3>
+<p><strong>Seu projeto não termina quando o código funciona — ele termina quando outra pessoa consegue compreender e usar a página.</strong></p>
+
+</div>

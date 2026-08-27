@@ -1,66 +1,87 @@
-<h1>🚀 Atividade Prática 01: Meu Primeiro Site HTML</h1>
+<div align="center">
 
-<p>
-  Esta atividade consiste em colocar em prática os conceitos fundamentais aprendidos na aula inaugural da disciplina de <b>HTML/CSS</b>. Você irá criar sua primeira página web do zero utilizando o <i>VS Code</i> ou <i>Github Codespaces</i>!
-</p>
+<h1>🚀 Atividade Prática 01</h1>
+<h2>Meu Primeiro Site HTML</h2>
+<p><strong>Construa sua primeira página web do zero e dê vida ao seu código no navegador!</strong></p>
+<p><code>HTML5</code> • <code>VS Code</code> • <code>GitHub Codespaces</code></p>
 
-<h2>📋 Requisitos da Atividade</h2>
+</div>
 
-<ul>
-  <li><b>Estrutura Limpa:</b> Utilizar corretamente as tags estruturais obrigatórias do HTML5 (<code>&lt;!DOCTYPE html&gt;</code>, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code>).</li>
-  <li><b>Configuração da Página:</b> Definir o idioma da página para português (<code>lang="pt-BR"</code>) e configurar o título da aba do navegador via tag <code>&lt;title&gt;</code> como <i>"Conheça o Desenvolvedor - [Seu Nome]"</i>.</li>
-  <li><b>Nomenclatura Padrão:</b> O arquivo principal da página deve se chamar rigorosamente <code>index.html</code>.</li>
-  <li><b>Documentação no Código:</b> Inserir pelo menos um comentário em HTML (<code>&lt;!-- seu comentário --&gt;</code>) explicando o início de uma das seções da página.</li>
-  <li><b>Publicação e Entrega:</b> Criar um repositório público no GitHub com o nome exato de <code>meu-primeiro-site-html</code> e realizar o envio (push) do seu arquivo.</li>
-</ul>
+---
 
-<h2>🏗️ Estrutura do Conteúdo e Tags Esperadas</h2>
+## 🎯 Sobre a atividade
 
-<table>
-  <thead>
-    <tr>
-      <th>Seção da Página</th>
-      <th>Descrição do Conteúdo</th>
-      <th>Tags Recomendadas</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>Cabeçalho Principal</b></td>
-      <td>Seu nome completo em destaque no topo da página.</td>
-      <td><code>&lt;h1&gt;</code></td>
-    </tr>
-    <tr>
-      <td><b>Biografia</b></td>
-      <td>Um parágrafo apresentando quem você é, sua idade e sua turma no curso de Informática.</td>
-      <td><code>&lt;p&gt;</code>, <code>&lt;strong&gt;</code></td>
-    </tr>
-    <tr>
-      <td><b>Divisão Visual</b></td>
-      <td>Uma linha horizontal simples para separar o cabeçalho/biografia das demais seções.</td>
-      <td><code>&lt;hr&gt;</code></td>
-    </tr>
-    <tr>
-      <td><b>Seção de Hobbies</b></td>
-      <td>Título de seção secundário para apresentar seus gostos pessoais.</td>
-      <td><code>&lt;h2&gt;</code></td>
-    </tr>
-    <tr>
-      <td><b>Hobbie Favorito</b></td>
-      <td>Um parágrafo detalhando o seu hobbie principal com termos em itálico ou ênfase visual.</td>
-      <td><code>&lt;p&gt;</code>, <code>&lt;em&gt;</code></td>
-    </tr>
-    <tr>
-      <td><b>Minhas Disciplinas</b></td>
-      <td>Subtítulo de seção e um parágrafo citando as disciplinas do semestre atual, dando ênfase visual em cada uma delas.</td>
-      <td><code>&lt;h3&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;strong&gt;</code></td>
-    </tr>
-  </tbody>
-</table>
+Nesta atividade, você colocará em prática os conceitos fundamentais aprendidos na aula inaugural de **HTML/CSS**. O desafio é criar uma página de apresentação utilizando apenas HTML e visualizar o resultado diretamente no navegador.
 
-<br>
+Você pode desenvolver o projeto no **VS Code** ou no **GitHub Codespaces**.
+
+## 🧭 Visão geral
+
+| Item | Orientação |
+| --- | --- |
+| 📄 Arquivo principal | `index.html` |
+| 🧱 Tecnologia | HTML5 |
+| 💻 Ambiente | VS Code ou GitHub Codespaces |
+| 📦 Entrega | Repositório no GitHub |
+| 🏷️ Nome do repositório | `meu-primeiro-site-html` |
+
+> [!IMPORTANT]
+> O nome do arquivo principal deve ser exatamente `index.html`.
+
+## ✅ Requisitos obrigatórios
+
+Use esta lista para acompanhar seu progresso:
+
+- [ ] Criar a estrutura básica com `<!DOCTYPE html>`, `<html>`, `<head>` e `<body>`.
+- [ ] Definir o idioma da página com `lang="pt-BR"`.
+- [ ] Configurar o título da aba como **Conheça o Desenvolvedor - [Seu Nome]**.
+- [ ] Salvar o arquivo principal com o nome `index.html`.
+- [ ] Inserir pelo menos um comentário HTML, como `<!-- início da biografia -->`.
+- [ ] Criar um repositório público chamado `meu-primeiro-site-html`.
+- [ ] Enviar o arquivo ao repositório com um **push**.
+
+## 🏗️ Estrutura esperada
+
+| Seção da página | Conteúdo solicitado | Tags recomendadas |
+| --- | --- | --- |
+| 👤 **Cabeçalho principal** | Seu nome completo em destaque no topo da página. | `<h1>` |
+| ✍️ **Biografia** | Um parágrafo apresentando quem você é, sua idade e sua turma no curso de Informática. | `<p>`, `<strong>` |
+| ➖ **Divisão visual** | Uma linha horizontal para separar a apresentação das demais seções. | `<hr>` |
+| 🎮 **Seção de hobbies** | Um título secundário para apresentar seus gostos pessoais. | `<h2>` |
+| ⭐ **Hobby favorito** | Um parágrafo detalhando seu hobby principal e destacando informações importantes. | `<p>`, `<em>` |
+| 📚 **Minhas disciplinas** | Um subtítulo e um parágrafo citando as disciplinas do semestre. | `<h3>`, `<p>`, `<strong>` |
+
+## 🪜 Passo a passo sugerido
+
+1. Crie uma pasta para a atividade.
+2. Abra essa pasta no VS Code.
+3. Crie o arquivo `index.html`.
+4. Monte a estrutura básica do documento.
+5. Acrescente as seções solicitadas.
+6. Abra o arquivo no navegador e confira o resultado.
+7. Revise os requisitos usando o checklist.
+8. Crie o repositório e envie sua página.
 
 <details>
-  <summary>💡 <b>Dica de Produtividade (Clique para abrir)</b></summary>
-  <p>No VS Code, você não precisa digitar toda a estrutura básica do HTML manualmente! Ao criar o arquivo <code>index.html</code>, digite apenas <code>!</code> e aperte a tecla <b>Tab</b> para gerar o esqueleto do código automaticamente via Emmet.</p>
+<summary><strong>💡 Dica de produtividade — clique para abrir</strong></summary>
+
+No VS Code, você não precisa digitar toda a estrutura básica manualmente. Depois de criar o arquivo `index.html`, digite `!` e pressione a tecla **Tab** para gerar o esqueleto do documento usando o Emmet.
+
 </details>
+
+## 🔎 Checklist antes da entrega
+
+- [ ] A página abre no navegador sem apresentar erros?
+- [ ] O título da aba está correto?
+- [ ] Os títulos seguem uma ordem coerente?
+- [ ] Todas as informações solicitadas estão presentes?
+- [ ] O arquivo foi enviado para o repositório correto?
+
+---
+
+<div align="center">
+
+<h3>🌐 Sua primeira página começa aqui!</h3>
+<p><strong>Construa, teste, revise e publique.</strong></p>
+
+</div>
